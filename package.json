@@ -1,6 +1,6 @@
 {
    "name": "@bemoje/assert-array-like",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "description": "Throw TypeError if not a value is array-like. The undefined value always evaluates to true.",
    "main": "dist/assert-array-like.umd.js",
    "module": "dist/assert-array-like.esm.js",
@@ -59,7 +59,7 @@
       "fs-extra": "^9.0.0",
       "hirestime": "^6.0.1",
       "jest": "^24.9.0",
-      "keyword-extractor": "0.0.18",
+      "keyword-extractor": "0.0.21",
       "path": "^0.12.7",
       "rimraf": "^3.0.2",
       "rollup": "^1.32.1",
@@ -74,6 +74,7 @@
       "undefined",
       "evaluates",
       "true",
+      "-",
       "assertarraylike"
    ]
 }
